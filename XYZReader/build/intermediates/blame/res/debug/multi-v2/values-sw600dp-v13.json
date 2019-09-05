@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/res/values-sw600dp/dimens.xml",
+                    "from": {
+                        "startLines": "3,2,5,4",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "90,36,238,143",
+                        "endColumns": "52,53,41,94",
+                        "endOffsets": "138,85,275,233"
+                    },
+                    "to": {
+                        "startLines": "20,26,27,28",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1230,1572,1626,1668",
+                        "endColumns": "52,53,41,94",
+                        "endOffsets": "1278,1621,1663,1758"
+                    }
+                },
+                {
+                    "source": "/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/res/values-sw600dp/macro_layout.xml",
+                    "from": {
+                        "startLines": "7,3,4,6,5,2",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "325,88,143,259,200,36",
+                        "endColumns": "56,54,56,65,58,51",
+                        "endOffsets": "377,138,195,320,254,83"
+                    },
+                    "to": {
+                        "startLines": "19,21,22,23,24,25",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "1173,1283,1338,1395,1461,1520",
+                        "endColumns": "56,54,56,65,58,51",
+                        "endOffsets": "1225,1333,1390,1456,1515,1567"
+                    }
+                },
+                {
+                    "source": "/Users/josephlim/.gradle/caches/transforms-2/files-2.1/f6a183f8595ca34f3d5cc99d1f8bc322/appcompat-1.0.2/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
+                    "source": "/Users/josephlim/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,553,617,680",
+                        "endLines": "2,3,4,5,6,7,9,10,11,15",
+                        "endColumns": "59,69,70,71,57,57,10,63,62,10",
+                        "endOffsets": "110,180,251,323,381,439,548,612,675,847"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,18,29,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "611,671,741,812,884,942,1000,1109,1763,1826",
+                        "endLines": "10,11,12,13,14,15,17,18,29,33",
+                        "endColumns": "59,69,70,71,57,57,10,63,62,10",
+                        "endOffsets": "666,736,807,879,937,995,1104,1168,1821,1993"
+                    }
+                }
+            ]
+        }
+    ]
+}

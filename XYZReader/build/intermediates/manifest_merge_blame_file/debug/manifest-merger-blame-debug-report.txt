@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.xyzreader"
+4    android:versionCode="2"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:6:5-81
+12-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+13-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:7:5-75
+13-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:7:22-72
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:8:5-79
+14-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:8:22-76
+15
+16    <application
+16-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:10:5-46:19
+17        android:name="androidx.multidex.MultiDexApplication"
+18        android:allowBackup="true"
+18-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:11:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.0.1] /Users/josephlim/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:12:9-43
+22        android:label="@string/app_name"
+22-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:13:9-41
+23        android:testOnly="true"
+24        android:theme="@style/Theme.Bacon" >
+24-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:14:9-43
+25        <activity
+25-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:16:9-23:20
+26            android:name="com.example.xyzreader.ui.ArticleListActivity"
+26-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:17:13-51
+27            android:label="@string/app_name" >
+27-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:18:13-45
+28            <intent-filter>
+28-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:19:13-22:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:20:17-69
+29-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:21:17-77
+31-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:21:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:25:9-37:20
+35            android:name="com.example.xyzreader.ui.ArticleDetailActivity"
+35-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:26:13-53
+36            android:parentActivityName="com.example.xyzreader.ui.ArticleListActivity" >
+36-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:27:13-65
+37            <intent-filter android:scheme="http" >
+37-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:28:13-33:29
+37-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:28:28-49
+38                <action android:name="android.intent.action.VIEW" />
+38-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:30:17-69
+38-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:30:25-66
+39
+40                <category android:name="android.intent.category.DEFAULT" />
+40-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:31:17-76
+40-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:31:27-73
+41
+42                <data android:mimeType="vnd.android.cursor.item/vnd.com.example.xyzreader.items" />
+42-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:32:17-100
+42-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:32:23-97
+43            </intent-filter>
+44
+45            <meta-data
+45-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:34:13-36:59
+46                android:name="android.support.PARENT_ACTIVITY"
+46-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:35:17-63
+47                android:value=".ui.ArticleListActivity" />
+47-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:36:17-56
+48        </activity>
+49
+50        <service
+50-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:39:9-40:40
+51            android:name="com.example.xyzreader.data.UpdaterService"
+51-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:39:18-53
+52            android:exported="false" />
+52-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:40:13-37
+53
+54        <provider
+54-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:42:9-44:40
+55            android:name="com.example.xyzreader.data.ItemsProvider"
+55-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:42:19-53
+56            android:authorities="com.example.xyzreader"
+56-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:43:13-56
+57            android:exported="false" />
+57-->/Users/josephlim/Documents/GitHub/XYZ-Reader-Udacity-Project/XYZReader/src/main/AndroidManifest.xml:44:13-37
+58    </application>
+59
+60</manifest>
